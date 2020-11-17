@@ -1,6 +1,6 @@
-## Jade menus.
+## Lynx menus.
 
-Application menu definition files for [JADE](https://github.com/codesardine/Jadesktop)
+Application menu definition files for [LYNX](https://github.com/codesardine/Lynxsktop)
 
 Some naming conventions were subject to change for a better experience.
 
