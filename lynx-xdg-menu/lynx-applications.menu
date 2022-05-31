@@ -9,13 +9,13 @@
 
   <Menu>
     <Name>Help</Name>
-       <Directory>Lynx-Help.directory</Directory>
+      <Directory>Lynx-Help.directory</Directory>
 	  <Include>
-             <And>
-                <Category>Documentation</Category>
-	     </And>
-                <Filename>manjaro-hello.desktop</Filename>
-                <Filename>org.gnome.Devhelp.desktop</Filename>
+      <And>
+        <Category>Documentation</Category>
+      </And>
+        <Filename>manjaro-hello.desktop</Filename>
+        <Filename>org.gnome.Devhelp.desktop</Filename>
 	  </Include>
   </Menu> 
 
@@ -154,23 +154,23 @@
 
   <Menu>
     <Name>Science</Name>
-      <Directory>Lynx-Science.directory</Directory>
-      <Include>
-        <And>
-          <Or>
-	    <Category>Astronomy</Category>
-	    <Category>Biology</Category>
-	    <Category>Chemistry</Category>
-	    <Category>Geology</Category>
-	    <Category>MedicalSoftware</Category>
-	    <Category>Physics</Category>
-	    <Category>Math</Category>
-	    <Category>Science</Category>
-	  </Or>
-	    <Not><Category>Education</Category></Not>
-	 </And>
-	</Include>
-    </Menu>
+    <Directory>Lynx-Science.directory</Directory>
+    <Include>
+      <And>
+        <Or>
+          <Category>Astronomy</Category>
+          <Category>Biology</Category>
+          <Category>Chemistry</Category>
+          <Category>Geology</Category>
+          <Category>MedicalSoftware</Category>
+          <Category>Physics</Category>
+          <Category>Math</Category>
+          <Category>Science</Category>
+        </Or>
+        <Not><Category>Education</Category></Not>
+      </And>
+    </Include>
+  </Menu>
 
   <Menu>
     <Name>System</Name>
@@ -208,7 +208,7 @@
         <Not><Category>DesktopSettings</Category></Not>
       </And>
     </Include>
-    </Menu>
+  </Menu>
 
   <Menu>
     <Name>Settings</Name>
