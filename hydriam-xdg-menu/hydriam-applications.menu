@@ -2,14 +2,14 @@
 
 <Menu>
   <Name>Applications</Name>
-  <Directory>Lynx-Applications.directory</Directory>
+  <Directory>Hydriam-Applications.directory</Directory>
   <DefaultAppDirs/>
   <DefaultDirectoryDirs/>
   <DefaultMergeDirs/>
 
   <Menu>
     <Name>Help</Name>
-      <Directory>Lynx-Help.directory</Directory>
+      <Directory>Hydriam-Help.directory</Directory>
 	  <Include>
       <And>
         <Category>Documentation</Category>
@@ -21,7 +21,7 @@
 
   <Menu>
     <Name>Accessories</Name>
-    <Directory>Lynx-Accessories.directory</Directory>
+    <Directory>Hydriam-Accessories.directory</Directory>
     <Include>
       <And>
         <Category>Utility</Category>
@@ -34,7 +34,7 @@
     <Exclude>
       <Filename>xfce4-about.desktop</Filename>
       <Filename>atom.desktop</Filename>
-      <Filename>lynx-dashboard.desktop</Filename>
+      <Filename>Hydriam-dashboard.desktop</Filename>
       <Filename>plank.desktop</Filename>
       <Filename>hplip.desktop</Filename>
       <Filename>seahorse.desktop</Filename>
@@ -46,7 +46,7 @@
 
   <Menu>
     <Name>Accessibility</Name>
-    <Directory>Lynx-Accessibility.directory</Directory>
+    <Directory>Hydriam-Accessibility.directory</Directory>
     <Include>
       <And>
         <Category>Accessibility</Category>
@@ -59,7 +59,7 @@
 
   <Menu>
     <Name>Development</Name>
-    <Directory>Lynx-Development.directory</Directory>
+    <Directory>Hydriam-Development.directory</Directory>
     <Include>
       <And>
         <Category>Development</Category>
@@ -77,7 +77,7 @@
 
   <Menu>
     <Name>Education</Name>
-    <Directory>Lynx-Education.directory</Directory>
+    <Directory>Hydriam-Education.directory</Directory>
     <Include>
       <And>
         <Category>Education</Category>
@@ -87,7 +87,7 @@
 
   <Menu>
     <Name>Games</Name>
-    <Directory>Lynx-Games.directory</Directory>
+    <Directory>Hydriam-Games.directory</Directory>
     <Include>
       <And>
         <Category>Game</Category>
@@ -97,7 +97,7 @@
 
   <Menu>
     <Name>Graphics</Name>
-    <Directory>Lynx-Graphics.directory</Directory>
+    <Directory>Hydriam-Graphics.directory</Directory>
     <Include>
       <And>
         <Category>Graphics</Category>
@@ -111,7 +111,7 @@
 
   <Menu>
     <Name>Internet</Name>
-    <Directory>Lynx-Internet.directory</Directory>
+    <Directory>Hydriam-Internet.directory</Directory>
     <Include>
       <And>
         <Category>Network</Category>
@@ -126,7 +126,7 @@
 
   <Menu>
     <Name>Multimedia</Name>
-    <Directory>Lynx-Multimedia.directory</Directory>
+    <Directory>Hydriam-Multimedia.directory</Directory>
     <Include>
       <And>
         <Category>AudioVideo</Category>
@@ -141,7 +141,7 @@
 
   <Menu>
     <Name>Office</Name>
-    <Directory>Lynx-Office.directory</Directory>
+    <Directory>Hydriam-Office.directory</Directory>
     <Include>
       <And>
         <Category>Office</Category>
@@ -154,7 +154,7 @@
 
   <Menu>
     <Name>Science</Name>
-    <Directory>Lynx-Science.directory</Directory>
+    <Directory>Hydriam-Science.directory</Directory>
     <Include>
       <And>
         <Or>
@@ -174,7 +174,7 @@
 
   <Menu>
     <Name>System</Name>
-    <Directory>Lynx-System-Tools.directory</Directory>
+    <Directory>Hydriam-System-Tools.directory</Directory>
     <Include>
       <And>
         <Category>System</Category>
@@ -197,7 +197,7 @@
 
   <Menu>
     <Name>Other</Name>
-    <Directory>Lynx-Other.directory</Directory>
+    <Directory>Hydriam-Other.directory</Directory>
     <OnlyUnallocated/>
     <Include>
       <And>
@@ -212,7 +212,7 @@
 
   <Menu>
     <Name>Settings</Name>
-    <Directory>Lynx-Settings.directory</Directory>
+    <Directory>Hydriam-Settings.directory</Directory>
     <Include>
       <And>
         <Category>Settings</Category>
