@@ -3,21 +3,57 @@
 <Menu>
   <Name>Applications</Name>
   <Directory>Hydriam-Applications.directory</Directory>
-  <DefaultAppDirs/>
-  <DefaultDirectoryDirs/>
-  <DefaultMergeDirs/>
+  <DefaultDirectoryDirs />
+  <DefaultAppDirs />
+  <DefaultMergeDirs />
+
+  <Menu>
+    <Name>All Applications</Name>
+    <Directory>Hydriam-All-Applications.directory</Directory>
+    <Include>
+      <Category>Documentation</Category>
+      <Category>Utility</Category>
+      <Category>System</Category>
+      <Category>Accessibility</Category>
+      <Category>Settings</Category>
+      <Category>Development</Category>
+      <Category>Education</Category>
+      <Category>Game</Category>
+      <Category>Graphics</Category>
+      <Category>Network</Category>
+      <Category>AudioVideo</Category>
+      <Category>Office</Category>
+      <Category>Astronomy</Category>
+      <Category>Biology</Category>
+      <Category>Chemistry</Category>
+      <Category>Geology</Category>
+      <Category>MedicalSoftware</Category>
+      <Category>Physics</Category>
+      <Category>Math</Category>
+      <Category>Science</Category>
+      <Category>Utility</Category>
+      <Category>Application</Category>
+      <Category>Core</Category>
+      <Category>Screensaver</Category>
+      <Category>DesktopSettings</Category>
+      
+    </Include>
+  </Menu>
 
   <Menu>
     <Name>Help</Name>
-      <Directory>Hydriam-Help.directory</Directory>
-	  <Include>
+    <Directory>Hydriam-Help.directory</Directory>
+    <Include>
       <And>
         <Category>Documentation</Category>
       </And>
-        <Filename>manjaro-hello.desktop</Filename>
-        <Filename>org.gnome.Devhelp.desktop</Filename>
-	  </Include>
-  </Menu> 
+      <Filename>manjaro-hello.desktop</Filename>
+      <Filename>org.gnome.Devhelp.desktop</Filename>
+    </Include>
+    <Exclude>
+      <Filename>assistant.desktop</Filename>
+    </Exclude>
+  </Menu>
 
   <Menu>
     <Name>Accessories</Name>
@@ -41,6 +77,8 @@
       <Filename>kvantummanager.desktop</Filename>
       <Filename>lighttable.desktop</Filename>
       <Filename>klipper.desktop</Filename>
+      <Filename>stoken-gui.desktop</Filename>
+      <Filename>stoken-gui-small.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -103,7 +141,7 @@
         <Category>Graphics</Category>
       </And>
     </Include>
-   <Exclude>
+    <Exclude>
       <Filename>deepin-screenshot.desktop</Filename>
       <Filename>org.gnome.Evince.desktop</Filename>
     </Exclude>
@@ -116,11 +154,12 @@
       <And>
         <Category>Network</Category>
       </And>
-    <Filename>avahi-discover.desktop</Filename>
+      <Filename>avahi-discover.desktop</Filename>
     </Include>
     <Exclude>
       <Filename>steam.desktop</Filename>
       <Filename>org.kde.kdeconnect.nonplasma.desktop</Filename>
+      <Filename>avahi-discover.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -167,7 +206,9 @@
           <Category>Math</Category>
           <Category>Science</Category>
         </Or>
-        <Not><Category>Education</Category></Not>
+        <Not>
+          <Category>Education</Category>
+        </Not>
       </And>
     </Include>
   </Menu>
@@ -178,7 +219,9 @@
     <Include>
       <And>
         <Category>System</Category>
-        <Not><Category>Settings</Category></Not>
+        <Not>
+          <Category>Settings</Category>
+        </Not>
       </And>
     </Include>
     <Exclude>
@@ -198,14 +241,22 @@
   <Menu>
     <Name>Other</Name>
     <Directory>Hydriam-Other.directory</Directory>
-    <OnlyUnallocated/>
+    <OnlyUnallocated />
     <Include>
       <And>
         <Category>Application</Category>
-        <Not><Category>Core</Category></Not>
-        <Not><Category>Settings</Category></Not>
-        <Not><Category>Screensaver</Category></Not>
-        <Not><Category>DesktopSettings</Category></Not>
+        <Not>
+          <Category>Core</Category>
+        </Not>
+        <Not>
+          <Category>Settings</Category>
+        </Not>
+        <Not>
+          <Category>Screensaver</Category>
+        </Not>
+        <Not>
+          <Category>DesktopSettings</Category>
+        </Not>
       </And>
     </Include>
   </Menu>
@@ -217,10 +268,10 @@
       <And>
         <Category>Settings</Category>
       </And>
-    <Filename>hplip.desktop</Filename>
-    <Filename>org.gnome.Software.desktop</Filename>
-    <Filename>pavucontrol.desktop</Filename>
-    <Filename>pavucontrol-qt.desktop</Filename>
+      <Filename>hplip.desktop</Filename>
+      <Filename>org.gnome.Software.desktop</Filename>
+      <Filename>pavucontrol.desktop</Filename>
+      <Filename>pavucontrol-qt.desktop</Filename>
     </Include>
     <Exclude>
       <Filename>manjaro-settings-manager.desktop</Filename>
@@ -231,5 +282,5 @@
       <Filename>qt5ct.desktop</Filename>
     </Exclude>
   </Menu>
- 
+
 </Menu>
